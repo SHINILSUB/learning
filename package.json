@@ -1,0 +1,17 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SHINILSUB/learning.git",
+  "author": "sean",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
+  }
+}
